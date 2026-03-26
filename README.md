@@ -156,7 +156,7 @@ automated scanning (nmap, nuclei)
 
 
 ## Dependancies:
-
+```plaintext
 **Enumeration**
   subfinder  
   amass  
@@ -209,7 +209,7 @@ automated scanning (nmap, nuclei)
 
 **VHOST Fuzzing**
   seclists
-
+```
 
 
 ## License
