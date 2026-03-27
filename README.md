@@ -1,8 +1,7 @@
- # FoxHunt v5.0
+ # FoxHunt v1.0.0
 The Interactive Orchestration Layer for Modern Bug Bounty Recon.
 
 FoxHunt is a sophisticated Bash-based reconnaissance framework designed to bridge the gap between manual one-liners and heavy, inflexible automation suites. It provides a custom interactive shell environment to manage programs, targets, and scope with persistent state.
-
 
 
 ## Core Features
@@ -33,9 +32,9 @@ Directories are all configurable in foxhunt.sh
 
 ## Commands
 
-FOXHUNT v5.0 -- bug bounty recon shell
+FOXHUNT v1.0.0 -- bug bounty recon shell
 
-```paintext
+```plaintext
 Workflow:
   set program <name>              create/open a program
   set scope <domains|file>        set scope (CSV, newline, or .txt file)
@@ -175,7 +174,7 @@ automated scanning (nmap, nuclei)
   dig  
 
 **Network Mapping**
-  asnmap  ***REQUIRES API KEY SET IN GLOBAL CONFIG AND INITIALIZED VIA CLIE***
+  asnmap  ***REQUIRES API KEY SET IN GLOBAL CONFIG AND INITIALIZED VIA CLI**
   nmap  
 
 **Passive Intel**
@@ -218,7 +217,29 @@ automated scanning (nmap, nuclei)
 **Recomended**
   Obsidian - Integrated for ease of navigation through the vault, all outputs are formated in markdown for vault access, and txt (in /data) QoL)
 ```
+## Why?
+Because I hated juggling a ton of tools, piping output, making random txt files with "interesting_JS_XXXXX" or whatever. I built this tool for my workflow and it fits in perfectly for me. It keeps me from forgetting which header to use, what scope I'm working in, and it makes my notes actually make sense instead of "JS bundle at example.com.js contains interesting endpoints." I get the endpoints in a fancy little list.
 
+Plus I like scripting.
+
+### Why "Foxhunt"
+
+Foxes are adorable.
+
+## Support, Issues, & Feedback
+I'm open to any and all questions, comments, concerns, bitches, moans, and gripes. I put this out here because I think it's cool and I'm proud of it. 
+
+* **Logic is trash?** Tell me how to fix it.
+* **Feature request?** Drop it in the issues tab.
+* **Something broke?** I'll read every single one and see what I can do.
+
+Please keep in mind: I am one guy, probably scripting in bed at 3am. I'm not a master dev, so don't expect this tool to ever be perfect.
+
+### Troubleshooting "Zero Results"
+If some of your stages come up empty, read this before yelling at me.
+1. **Check the Basics:** Verify your DNS, check for a WAF, and run a manual `curl`.
+2. **Understand the Tooling:** Some tools (like Nuclei) are very precise. Most security teams run these same tools—if the "low hanging fruit" is already patched, you won't see an output. That's totally normal.
+3. **Check API:** Some of these tools require an API set in global config. If you don't have them, nothing will show up.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
