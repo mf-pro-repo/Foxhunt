@@ -1,5 +1,4 @@
-![WindowsTerminal_WvDp7Frb5V](https://github.com/user-attachments/assets/45931939-eb6f-4392-89cf-2f562deff06a)🦊 
-# FoxHunt v5.0
+ # FoxHunt v5.0
 The Interactive Orchestration Layer for Modern Bug Bounty Recon.
 
 FoxHunt is a sophisticated Bash-based reconnaissance framework designed to bridge the gap between manual one-liners and heavy, inflexible automation suites. It provides a custom interactive shell environment to manage programs, targets, and scope with persistent state.
@@ -7,17 +6,17 @@ FoxHunt is a sophisticated Bash-based reconnaissance framework designed to bridg
 
 
 ## Core Features
-Custom Interactive Shell: A dedicated CLI environment with context-aware prompts (Program/Target tracking).
+**Custom Interactive Shell:** A dedicated CLI environment with context-aware prompts (Program/Target tracking).
 
-24-Stage Tactical Pipeline: A comprehensive recon flow covering passive/active discovery, DNS resolution, VHost fuzzing, JS analysis, and vulnerability scanning.
+**24-Stage Tactical Pipeline:** A comprehensive recon flow covering passive/active discovery, DNS resolution, VHost fuzzing, JS analysis, and vulnerability scanning.
 
-Smart Skip Logic: Custom SIGINT handling allows you to skip a specific tool/stage (Ctrl+C) without killing the entire session.
+**Smart Skip Logic:** Custom SIGINT handling allows you to skip a specific tool/stage (Ctrl+C) without killing the entire session.
 
-Persistent Configuration: Automatically saves and loads program-specific settings and global user defaults.
+**Persistent Configuration:** Automatically saves and loads program-specific settings and global user defaults.
 
-Obsidian Integration: Generates a structured .md summary at the end of every run, ready for your knowledge base.
+**Obsidian Integration:** Generates a structured .md summary at the end of every run, ready for your knowledge base.
 
-Modular Design: Easily toggle "Quick Mode" or "Exploit Mode" depending on your engagement depth.
+**Modular Design:** Easily toggle "Quick Mode" or "Exploit Mode" depending on your engagement depth.
 
 ## Config Options
 Foxhunt includes many configurable options, allowing you to customize your methodology per-program or overall.
@@ -86,17 +85,17 @@ No-program mode:
 ## The Pipeline
 FoxHunt orchestrates industry-standard tools into a unified stream:
 
-Passive Discovery: subfinder, assetfinder, github-subdomains, amass.
+**Passive Discovery:** subfinder, assetfinder, github-subdomains, amass.
 
-Resolution & Filtering: shuffledns, httpx.
+**Resolution & Filtering:** shuffledns, httpx.
 
-Intelligence Gathering: shodan, asn-enum.
+**Intelligence Gathering:** shodan, asn-enum.
 
-Endpoint Analysis: katana, waybackurls, linkfinder.
+**Endpoint Analysis:** katana, waybackurls, linkfinder.
 
-Vulnerability Probing: nuclei, corsy, dalfox.
+**Vulnerability Probing:** nuclei, corsy, dalfox.
 
-Summary: Automated stats and Obsidian-linked notes.
+**Summary:** Automated stats and Obsidian-linked notes.
 
 
 
@@ -215,6 +214,9 @@ automated scanning (nmap, nuclei)
 
 **VHOST Fuzzing**
   seclists
+
+**Recomended**
+  Obsidian - Integrated for ease of navigation through the vault, all outputs are formated in markdown for vault access, and txt (in /data) QoL)
 ```
 
 
