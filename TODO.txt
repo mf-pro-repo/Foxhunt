@@ -8,3 +8,5 @@ N/A - yet
 ADJUST: general directories in foxhunt.sh to be less chaotic, especially with the config files. - 03/27/26
 
 ADJUST/VERIFY: All repos, I'm so bad at formatting and I want them to be pretty. - 03/27/26
+
+CHECK: ASNMAP Logic for errors??? It might have errors if no API key is initialized. - 03/27/26
