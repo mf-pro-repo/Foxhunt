@@ -13,8 +13,10 @@ ADJUST: README.md for clarity and cohesion. - 03/30/26
 
 CHECK: ASNMAP Logic for errors??? It might have errors if no API key is initialized. - 03/27/26
 
-ADJUST: Obsidian output logic, particularly in subdomains. The output is VERY difficult to read.... -03/27-26
+ADJUST: Obsidian output logic, particularly in subdomains. The output is VERY difficult to read.... - 03/27/26
 
 # Ideas
 
 ADD: Recursive mode?
+
+REBASE: Maybe Go? C++? Python? INTERCAL? - 03/30/26
