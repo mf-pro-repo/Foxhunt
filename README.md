@@ -1,3 +1,4 @@
+ # DEV NOTE: I found like 600 bugs in the bash script and it's honestly so broken. Instead of debugging every single line of an already overbloated bash script. I'm just going forward with the Go rebase. With a SLEW of new features! It's going to be a complete re-write, restructure, and upgrade from V1. So stay tuned!
  # Foxhunt v1.0.0
 The Interactive Orchestration Layer for Modern Bug Bounty Recon.
 
