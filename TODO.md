@@ -1,4 +1,4 @@
-# NONE OF THIS MATTERS BECAUSE V2 IS COMING
+# V2 IN ALPHA TESTING
 
 ## ADD  
 ADD: setup.sh - to make installation easier - 03/27/26  
